@@ -24,4 +24,5 @@ jobs:
       - name: Run sign script
         env:
           COOKIE: ${{ secrets.COOKIE }}
+          SENDKEY: ${{ secrets.SENDKEY }}
         run: python sign.py
